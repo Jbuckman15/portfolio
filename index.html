@@ -12,7 +12,7 @@
 <body>
 
     <nav class="header-desktop">
-        <div class="logo">John Buckman</div>
+        <div class="logo"><h4>John Buckman</h4></div>
         <div>
             <ul class="navigation-buttons">
                 <li><a href="#introduction">Introduction</a></li>
@@ -31,8 +31,9 @@
         </div>
         <div class="section-text">
             <p>I am John Buckman.</p>
+            <br>
             <div class="resources">
-                <button onclick="location.href=``">
+                <button onclick="window.open('./media/Resume.pdf', '_blank')">
                     View Resume
                 </button>
                 <button onclick="location.href=``">
@@ -44,7 +45,7 @@
                     src="./media/LinkedInLogo.png"
                     alt="LinkedIn"
                     class="icon"
-                    onclick="location.href=`https://www.linkedin.com/in/john-buckman/`"
+                    onclick="window.open(`https://www.linkedin.com/in/john-buckman/`, '_blank')"
                 >
             </div>
         </div>
@@ -53,60 +54,170 @@
 
     <section id="experience">
         <h1>Experience</h1>
-        <div class="section-container">
-            <div class="experience-details-container">
-                <div class="experience-container">
-                    <div class="article">
-                        <img
-                            src="./media/RitLogo.png"
-                            alt="Rochester Instite of Technology Logo"
-                            class="icon"
-                        >
-                        <h3>Education</h3>
-                        <p>
-                            Rochester Institute of Technology<br>
-                            Bachelor of Science, Game Design and Development - 3.63<br>
-                            August 2018 - May 2022
-                        </p>
-                    </div>
-                    <div class="article">
-                        <h3>Education</h3>
-                        <p>
-                            Rochester Institute of Technology<br>
-                            Bachelor of Science, Game Design and Development - 3.63<br>
-                            August 2018 - May 2022
-                        </p>
-                    </div>
-                </div>
-                <div class="text-container">
+
+        <!--Adds a bit of a margin-->
+        <div class="experience-info">
+            <div class="experience-container">
+
+                <!--Education-->
+                <div class="article experience-art">
+                    <img
+                        src="./media/RitLogo.png"
+                        alt="Rochester Instite of Technology Logo"
+                        class="icon"
+                    >
+                    <h3>Education</h3>
                     <p>
-                        I went to Rochester Instite of Technology and did other shit lol. I went to Rochester Instite of Technology and did other shit lol. 
-                        I went to Rochester Instite of Technology and did other shit lol. I went to Rochester Instite of Technology and did other shit lol. 
-                        I went to Rochester Instite of Technology and did other shit lol. I went to Rochester Instite of Technology and did other shit lol. 
-                        I went to Rochester Instite of Technology and did other shit lol. I went to Rochester Instite of Technology and did other shit lol. 
+                        Rochester Institute of Technology<br>
+                        Bachelor of Science, Game Design and Development - 3.63<br>
+                        August 2018 - May 2022
                     </p>
                 </div>
+                
+                <!--MahiGaming-->
+                <div class="article experience-art">
+                    <img
+                        src="./media/MahiGamingLogo.png"
+                        alt="MahiGaming Logo Logo"
+                        class="icon"
+                    >
+                    <h3>MahiGaming - Software Developer</h3>
+                    <ul>
+                        <li>I did a thing.</li>
+                        <li>I did a thing.</li>
+                        <li>I did a thing.</li>
+                        <li>I did a thing.</li>
+                    </ul>
+                </div>
+                
+                <!--RunSports-->
+                <div class="article experience-art">
+                    <img
+                        src="./media/RunSportsLogo.png"
+                        alt="MahiGaming Logo Logo"
+                        class="icon"
+                    >
+                    <h3>Run Sports APP - Software Developer</h3>
+                    <ul>
+                        <li>I did a thing.</li>
+                        <li>I did a thing.</li>
+                        <li>I did a thing.</li>
+                        <li>I did a thing.</li>
+                    </ul>
+                </div>
             </div>
+            <div class="text-container">
+                <p>
+                    I went to Rochester Instite of Technology and did other shit lol. I went to Rochester Instite of Technology and did other shit lol. 
+                    I went to Rochester Instite of Technology and did other shit lol. I went to Rochester Instite of Technology and did other shit lol. 
+                    I went to Rochester Instite of Technology and did other shit lol. I went to Rochester Instite of Technology and did other shit lol. 
+                    I went to Rochester Instite of Technology and did other shit lol. I went to Rochester Instite of Technology and did other shit lol. 
+                </p>
+            </div>
+            <br>
+            <iframe width="854" height="480"
+                src="https://www.youtube.com/embed/NWB65u573V0">
+            </iframe>
         </div>
     </section>
     
     <section id="projects">
         <h1>Projects</h1>
-        <div class="experience-info">
-            <div class="experience-container">
-                <div class="article">
-                    <img
-                        src="./media/Photo.png"
-                        alt="Thregnar and the Crystals of Chaos Image"
-                        class="project-img"
-                    >
-                    <h2>Thregnar and the Crystals of Chaos</h2>
-                    <p>Thregnar and the Crystals of Chaos is an upcoming indie game programmed by myself.</p>
-                </div>
+
+        <!--Helps with intense spacing-->
+        <div class="projects-container">
+
+            <!--Thregnar Project-->
+            <div class="article project">
+                <img
+                    src="./media/ThregnarImg.png"
+                    alt="Thregnar and the Crystals of Chaos Image"
+                    class="project-img"
+                >
+                <h2>Thregnar and the Crystals of Chaos</h2>
+                <p>Thregnar and the Crystals of Chaos is an upcoming indie game programmed by myself.</p>
+                <br>
+                <button class="demo-button" onclick="window.open('','_blank')">
+                    <p>Try Demo</p>
+                </button>
             </div>
+            
+            <!--Fireworks Project-->
+            <div class="article project">
+                <img
+                    src="./media/FireworksImg.png"
+                    alt="Fireworks Sandbox Image"
+                    class="project-img"
+                >
+                <h2>Firework Sandbox</h2>
+                <p>Thregnar and the Crystals of Chaos is an upcoming indie game programmed by myself.</p>
+                <br>
+                <button class="demo-button" onclick="window.open('https://people.rit.edu/jmb8220/330/project3','_blank')">
+                    <p>Try Demo</p>
+                </button>
+            </div>
+                
+            <!--Fire and Roses JOKER Project-->
+            <div class="article project">
+                <img
+                    src="./media/FireAndRosesImg.png"
+                    alt="Fire and Roses JOKER"
+                    class="project-img"
+                >
+                <h2>Thregnar and the Crystals of Chaos</h2>
+                <p>Thregnar and the Crystals of Chaos is an upcoming indie game programmed by myself.</p>
+                <br>
+                <button class="demo-button" onclick="window.open('https://slotcatalog.com/en/slots/Fire-and-Roses-Joker','_blank')">
+                    <p>Try Demo</p>
+                </button>
+            </div>
+                
+            <!--Amiibo Finder-->
+            <div class="article project">
+                <img
+                    src="./media/AmiiboFinderImg.png"
+                    alt="Amiibo Finder Image"
+                    class="project-img"
+                >
+                <h2>Amiibo Database</h2>
+                <p>Thregnar and the Crystals of Chaos is an upcoming indie game programmed by myself.</p>
+                <br>
+                <button class="demo-button" onclick="window.open('https://people.rit.edu/jmb8220/330/project1/','_blank')">
+                    <p>Try Demo</p>
+                </button>
+            </div>
+                
+            <!--Another project-->
+            <div class="article project">
+                <img
+                    src="./media/Photo.png"
+                    alt="Thregnar and the Crystals of Chaos Image"
+                    class="project-img"
+                >
+                <h2>Thregnar and the Crystals of Chaos</h2>
+                <p>Thregnar and the Crystals of Chaos is an upcoming indie game programmed by myself.</p>
+                <br>
+                <button class="demo-button" onclick="window.open('','_blank')">
+                    <p>Try Demo</p>
+                </button>
+            </div>
+                
+            <!--Another project-->
+            <div class="article project">
+                <img
+                    src="./media/Photo.png"
+                    alt="Thregnar and the Crystals of Chaos Image"
+                    class="project-img"
+                >
+                <h2>Thregnar and the Crystals of Chaos</h2>
+                <p>Thregnar and the Crystals of Chaos is an upcoming indie game programmed by myself.</p>
+                <br>
+                <button class="demo-button" onclick="window.open('','_blank')">
+                    <p>Try Demo</p>
+                </button>
+            </div>
+
         </div>
-
-
 
     </section>
 
