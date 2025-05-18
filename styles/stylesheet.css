@@ -1,4 +1,4 @@
-/* Font imprt */
+/* Font import */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
@@ -16,7 +16,7 @@ body {
 
 html {
     scroll-behavior: smooth;
-    background-color: #243325;
+    background-color: #1D1E20;
     color: #63C96B;
 }
 
@@ -24,24 +24,19 @@ h1, h2, h3 {
     font-family: "Roboto";
 }
 
+ul {
+    text-align: left;
+}
+
 
 /* Sections */
 
 section {
     padding-top: 4vh;
-    height: 96vh;
+    height: 64vh;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
-}
-
-.section-container {
-    display: flex;
-}
-
-.section-container {
-    gap: 4rem;
-    height: 80%;
 }
 
 .section-text {
@@ -62,7 +57,7 @@ section {
 .photo {
     display: flex;
     height: 425px;
-    width: 425;
+    width: 425px;
     margin: auto 0;
 }
 
@@ -80,9 +75,8 @@ section {
     text-align: center;
 }
 
-.experience-details-container {
+.experience-info {
     justify-content: center;
-    flex-direction: column;
 }
 
 .experience-container {
@@ -92,17 +86,30 @@ section {
     margin-bottom: 2rem;
 }
 
+.experience-art {
+    width: 30%;
+}
+
 
 /* Projects */
 
 #projects {
+    text-align: center;
     position: relative;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project {
+    width: 20%;
 }
 
 .project-img {
     border-radius: 2rem;
     width: 90%;
-    height: 90%;
 }
 
 
@@ -129,7 +136,7 @@ button {
     width: 8rem;
     border-radius: 2rem;
     border: #63C96B .1rem solid;
-    background-color: #243325;
+    background-color: #1D1E20;
     color: #63C96B;
 }
 
@@ -142,14 +149,10 @@ button:hover {
 
 .article {
     padding: 1.5rem;
-    flex: 1;
-    background: #243325;
     border-radius: 2rem;
     border: #63C96B .1rem solid;
     text-align: center;
 }
-
-
 
 
 /* Navigation */
