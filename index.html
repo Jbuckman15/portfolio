@@ -1,225 +1,289 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="utf-8" />
- 	<title>John Buckman</title>
+    <meta charset="utf-8" />
+    <title>John Buckman</title>
 
-	<!--Styles Import-->
-	<link rel="stylesheet" href="styles/stylesheet.css">
+    <!--Styles Import-->
+    <link rel="stylesheet" href="styles/stylesheet.css">
 
-	<!-- Import jQuery -->
+    <!-- Import jQuery -->
 </head>
+
 <body>
 
     <nav class="header-desktop">
-        <div class="logo"><h4>John Buckman</h4></div>
+        <div class="logo">
+            <h4>John Buckman</h4>
+        </div>
         <div>
             <ul class="navigation-buttons">
                 <li><a href="#introduction">Introduction</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
-
 
     <section id="introduction">
         <div class="photo">
             <img src="./media/Photo.png" alt="Photograph">
         </div>
         <div class="section-text">
-            <p>I am John Buckman.</p>
+            <h4>Hello! My name is John Buckman, and I’ve spent the past ten years immersed in the study of programming. 
+                I have strong proficiency in several programming languages, including Java, C#, JavaScript, TypeScript, and HTML. 
+                I am also driven by a passion for game design and development, working with 3D game engines and animation software. 
+                My goal is to continue refining my skills, contribute meaningfully to the tech industry, and create software that is both engaging and enjoyable to use.</h4>
             <br>
             <div class="resources">
                 <button onclick="window.open('./media/Resume.pdf', '_blank')">
                     View Resume
                 </button>
-                <button onclick="location.href=``">
-                    View CV
-                </button>
             </div>
+            <br>
+            <br>
+            <h4>Contact Me</h4>
             <div class="social-links">
-                <img
-                    src="./media/LinkedInLogo.png"
-                    alt="LinkedIn"
-                    class="icon"
-                    onclick="window.open(`https://www.linkedin.com/in/john-buckman/`, '_blank')"
-                >
+                <img src="./media/LinkedInLogo.png" alt="LinkedIn" class="icon"
+                    onclick="window.open(`https://www.linkedin.com/in/john-buckman/`, '_blank')">
+                <img src="./media/MailLogo.png" alt="Email" class="icon"
+                    onclick="window.open(`mailto:johnbuckman15@gmail.com`, '_blank')">
             </div>
+            <br>
+            <p>johnbuckman15@gmail.com</p>
         </div>
 
+    </section>
+
+    <section id="skills">
+        <h1>Skills</h1>
+        <br>
+
+        <div class="skills-container">
+            <div class="skill">
+                <img src="./media/JavaLogo.png" alt="Java Logo" class="skill-icon">
+                <h4>Java</h4>
+            </div>
+            <div class="skill">
+                <img src="./media/TypeScriptLogo.png" alt="TypeScript Logo" class="skill-icon">
+                <h4>TypeScript</h4>
+            </div>
+            <div class="skill">
+                <img src="./media/CPlusLogo.png" alt="C++ Logo" class="skill-icon">
+                <h4>C++</h4>
+            </div>
+            <div class="skill">
+                <img src="./media/HtmlLogo.png" alt="HTML Logo" class="skill-icon">
+                <h4>HTML</h4>
+            </div>
+            <div class="skill">
+                <img src="./media/GithubLogo.png" alt="GitHub Logo" class="skill-icon">
+                <h4>Git</h4>
+            </div>
+            <div class="skill">
+                <img src="./media/JiraLogo.png" alt="Jira Logo" class="skill-icon">
+                <h4>Jira</h4>
+            </div>
+            <div class="skill">
+                <img src="./media/UnityLogo.png" alt="Unity Logo" class="skill-icon">
+                <h4>Unity</h4>
+            </div>
+            <div class="skill">
+                <img src="./media/MonogameLogo.png" alt="MonogameLogo Logo" class="skill-icon">
+                <h4>Monogame</h4>
+            </div>
+            <div class="skill">
+                <img src="./media/UnrealLogo.png" alt="Unreal Engine Logo" class="skill-icon">
+                <h4>Unreal Engine</h4>
+            </div>
+            <div class="skill">
+                <img src="./media/BlenderLogo.png" alt="Blender Logo" class="skill-icon">
+                <h4>Blender</h4>
+            </div>
+            <div class="skill">
+                <img src="./media/MayaLogo.png" alt="Maya Logo" class="skill-icon">
+                <h4>Maya</h4>
+            </div>
+        </div>
+        <br>
     </section>
 
     <section id="experience">
         <h1>Experience</h1>
 
         <!--Adds a bit of a margin-->
-        <div class="experience-info">
-            <div class="experience-container">
+        <div class="experience-container">
 
-                <!--Education-->
-                <div class="article experience-art">
-                    <img
-                        src="./media/RitLogo.png"
-                        alt="Rochester Instite of Technology Logo"
-                        class="icon"
-                    >
-                    <h3>Education</h3>
-                    <p>
-                        Rochester Institute of Technology<br>
-                        Bachelor of Science, Game Design and Development - 3.63<br>
-                        August 2018 - May 2022
-                    </p>
-                </div>
-                
-                <!--MahiGaming-->
-                <div class="article experience-art">
-                    <img
-                        src="./media/MahiGamingLogo.png"
-                        alt="MahiGaming Logo Logo"
-                        class="icon"
-                    >
-                    <h3>MahiGaming - Software Developer</h3>
-                    <ul>
-                        <li>I did a thing.</li>
-                        <li>I did a thing.</li>
-                        <li>I did a thing.</li>
-                        <li>I did a thing.</li>
-                    </ul>
-                </div>
-                
-                <!--RunSports-->
-                <div class="article experience-art">
-                    <img
-                        src="./media/RunSportsLogo.png"
-                        alt="MahiGaming Logo Logo"
-                        class="icon"
-                    >
-                    <h3>Run Sports APP - Software Developer</h3>
-                    <ul>
-                        <li>I did a thing.</li>
-                        <li>I did a thing.</li>
-                        <li>I did a thing.</li>
-                        <li>I did a thing.</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="text-container">
+            <!--Education-->
+            <div class="article experience-article">
+                <img src="./media/RitLogo.png" alt="Rochester Instite of Technology Logo" class="icon">
+                <h3>Education</h3>
                 <p>
-                    I went to Rochester Instite of Technology and did other shit lol. I went to Rochester Instite of Technology and did other shit lol. 
-                    I went to Rochester Instite of Technology and did other shit lol. I went to Rochester Instite of Technology and did other shit lol. 
-                    I went to Rochester Instite of Technology and did other shit lol. I went to Rochester Instite of Technology and did other shit lol. 
-                    I went to Rochester Instite of Technology and did other shit lol. I went to Rochester Instite of Technology and did other shit lol. 
+                    August 2018 - May 2022
+                </p>
+                <br>
+                <p>
+                    Rochester Institute of Technology<br>
+                    School of Interactive Games and Media<br>
+                    Bachelor of Science | GPA 3.63
                 </p>
             </div>
-            <br>
-            <iframe width="854" height="480"
-                src="https://www.youtube.com/embed/NWB65u573V0">
-            </iframe>
+
+            <!--Buckman Advisory Group-->
+            <div class="article experience-article">
+                <img src="./media/BuckmanLogo.png" alt="Buckman Advisory Group Logo" class="icon">
+                <h3>Buckman Advisory Group - Digital Marketer</h3>
+                <p>
+                    August 2023 - Present
+                </p>
+                <br>
+                <ul>
+                    <li>Utilizes artificial intelligence to aid in the writing and production of online promotional content.</li>
+                    <li>Develops programs to assist in organizing client data.</li>
+                </ul>
+            </div>
+
+            <!--MahiGaming-->
+            <div class="article experience-article">
+                <img src="./media/MahiGamingLogo.png" alt="MahiGaming Logo" class="icon">
+                <h3>MahiGaming - Software Developer</h3>
+                <p>
+                    August 2022 - April 2023
+                </p>
+                <br>
+                <ul>
+                    <li>Collaborated with multiple international studios to develop top-performing online casino games, including 
+                        <b>Gallo Gold Bruno’s</b> and <b>Fire and Roses JOKER</b>.</li>
+                    <li>Developed gameplay features, engine enhancements, and bug fixes using TypeScript.</li>
+                    <li>Conducted market research to identify industry trends and strategize game development for success.</li>
+                </ul>
+            </div>
+
+            <!--RunSports-->
+            <div class="article experience-article">
+                <img src="./media/RunSportsLogo.png" alt="RunSports Logo" class="icon">
+                <h3>RunSports App - Software Developer</h3>
+                <p>
+                    May 2021 - August 2021
+                </p>
+                <br>
+                <ul>
+                    <li>Led a team in creating a prototype game in Unity for investors, delivering a functional, optimized product.</li>
+                    <li>Improved performance by optimizing inefficient code and mentoring junior developers on the best practices in C#.</li>
+                    <li>Designed 3D models in Blender for integration into the game prototype.</li>
+                </ul>
+            </div>
+
+            <!--Code Ninjas-->
+            <div class="article experience-article">
+                <img src="./media/CodeNinjasLogo.png" alt="Code Ninjas Logo" class="icon">
+                <h3>Code Ninjas - Programming Instructor</h3>
+                <p>
+                    June 2019 - May 2021
+                </p>
+                <br>
+                <ul>
+                    <li>Taught programming and robotics to children aged 7-14, simplifying complex concepts for easy comprehension.</li>
+                    <li>Created engaging lesson plans tailored to various experience levels, promoting active learning and problem-solving.</li>
+                </ul>
+            </div>
         </div>
+        <br>
     </section>
-    
+
     <section id="projects">
-        <h1>Projects</h1>
+        <h1>Projects</h1><br>
 
         <!--Helps with intense spacing-->
         <div class="projects-container">
 
             <!--Thregnar Project-->
             <div class="article project">
-                <img
-                    src="./media/ThregnarImg.png"
-                    alt="Thregnar and the Crystals of Chaos Image"
-                    class="project-img"
-                >
+                <img src="./media/ThregnarImg.png" alt="Thregnar and the Crystals of Chaos Image" class="project-img">
                 <h2>Thregnar and the Crystals of Chaos</h2>
-                <p>Thregnar and the Crystals of Chaos is an upcoming indie game programmed by myself.</p>
+                <p>I’m currently programming and animating an upcoming indie game titled Thregnar and the Crystals of Chaos.</p>
                 <br>
-                <button class="demo-button" onclick="window.open('','_blank')">
-                    <p>Try Demo</p>
+                <button class="demo-button">
+                    <p>Demo coming soon</p>
                 </button>
             </div>
-            
-            <!--Fireworks Project-->
-            <div class="article project">
-                <img
-                    src="./media/FireworksImg.png"
-                    alt="Fireworks Sandbox Image"
-                    class="project-img"
-                >
-                <h2>Firework Sandbox</h2>
-                <p>Thregnar and the Crystals of Chaos is an upcoming indie game programmed by myself.</p>
-                <br>
-                <button class="demo-button" onclick="window.open('https://people.rit.edu/jmb8220/330/project3','_blank')">
-                    <p>Try Demo</p>
-                </button>
-            </div>
-                
+
             <!--Fire and Roses JOKER Project-->
             <div class="article project">
-                <img
-                    src="./media/FireAndRosesImg.png"
-                    alt="Fire and Roses JOKER"
-                    class="project-img"
-                >
-                <h2>Thregnar and the Crystals of Chaos</h2>
-                <p>Thregnar and the Crystals of Chaos is an upcoming indie game programmed by myself.</p>
+                <img src="./media/FireAndRosesImg.png" alt="Fire and Roses JOKER Image" class="project-img">
+                <h2>Fire and Roses JOKER</h2>
+                <p>Fire and Roses JOKER is an online slot game I contributed to during my time at MahiGaming.</p>
                 <br>
-                <button class="demo-button" onclick="window.open('https://slotcatalog.com/en/slots/Fire-and-Roses-Joker','_blank')">
-                    <p>Try Demo</p>
+                <button class="demo-button"
+                    onclick="window.open('https://slotcatalog.com/en/slots/Fire-and-Roses-Joker','_blank')">
+                    <p>Live Demo</p>
                 </button>
             </div>
-                
+
+            <!--Purple Wurple Project-->
+            <div class="article project">
+                <img src="./media/PurpleWurpleImg.png" alt="Purple Wurple Image" class="project-img">
+                <h2>Purple Wurple</h2>
+                <p>I’ve published a puzzle platformer game titled Purple Wurple on Itch.io. This game is designed around a unique stretch and stick mechanic.</p>
+                <br>
+                <button class="demo-button"
+                    onclick="window.open('https://cm04.itch.io/purple-wurple','_blank')">
+                    <p>Live Demo</p>
+                </button>
+            </div>
+
+            <!--Fireworks Project-->
+            <div class="article project">
+                <img src="./media/FireworksImg.png" alt="Fireworks Sandbox Image" class="project-img">
+                <h2>Firework Sandbox</h2>
+                <p>Firework Sandbox is a project I created at Rochester Institute of Technology. The goal was to have an interactive webpage with adjustable settings.</p>
+                <br>
+                <button class="demo-button"
+                    onclick="window.open('https://people.rit.edu/jmb8220/330/project3','_blank')">
+                    <p>Live Demo</p>
+                </button>
+            </div>
+
+            <!--Whiplash-->
+            <div class="article project">
+                <img src="./media/WhiplashImg.png" alt="Whiplash Image" class="project-img">
+                <h2>Whiplash</h2>
+                <p>Whiplash is a grappling hook themed 3D platformer that was a group project developed at RIT.</p>
+                <br>
+                <button class="demo-button"
+                    onclick="window.open('https://people.rit.edu/jmb8220/450/Milestone4/','_blank')">
+                    <p>Live Demo</p>
+                </button>
+            </div>
+
             <!--Amiibo Finder-->
             <div class="article project">
-                <img
-                    src="./media/AmiiboFinderImg.png"
-                    alt="Amiibo Finder Image"
-                    class="project-img"
-                >
+                <img src="./media/AmiiboFinderImg.png" alt="Amiibo Finder Image" class="project-img">
                 <h2>Amiibo Database</h2>
-                <p>Thregnar and the Crystals of Chaos is an upcoming indie game programmed by myself.</p>
+                <p>The Amiibo Database was an RIT project based around converting APIs into a user friendly program.</p>
                 <br>
-                <button class="demo-button" onclick="window.open('https://people.rit.edu/jmb8220/330/project1/','_blank')">
-                    <p>Try Demo</p>
-                </button>
-            </div>
-                
-            <!--Another project-->
-            <div class="article project">
-                <img
-                    src="./media/Photo.png"
-                    alt="Thregnar and the Crystals of Chaos Image"
-                    class="project-img"
-                >
-                <h2>Thregnar and the Crystals of Chaos</h2>
-                <p>Thregnar and the Crystals of Chaos is an upcoming indie game programmed by myself.</p>
-                <br>
-                <button class="demo-button" onclick="window.open('','_blank')">
-                    <p>Try Demo</p>
-                </button>
-            </div>
-                
-            <!--Another project-->
-            <div class="article project">
-                <img
-                    src="./media/Photo.png"
-                    alt="Thregnar and the Crystals of Chaos Image"
-                    class="project-img"
-                >
-                <h2>Thregnar and the Crystals of Chaos</h2>
-                <p>Thregnar and the Crystals of Chaos is an upcoming indie game programmed by myself.</p>
-                <br>
-                <button class="demo-button" onclick="window.open('','_blank')">
-                    <p>Try Demo</p>
+                <button class="demo-button"
+                    onclick="window.open('https://people.rit.edu/jmb8220/330/project1/','_blank')">
+                    <p>Live Demo</p>
                 </button>
             </div>
 
         </div>
+        <br>
+        <h4>Here is a video that contains a compilation of my work.</h4>
+        <div class="video-container">
+            <iframe class="video" src="https://www.youtube.com/embed/NWB65u573V0">
+            </iframe>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
 
     </section>
 
 </body>
+
 </html>
