@@ -69,25 +69,68 @@ section {
 }
 
 
+/* Skills */
+
+#skills {
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill-icon {
+    height: 8rem;
+    margin: 2rem;
+}
+
+
 /* Experience */
 
 #experience {
     text-align: center;
 }
 
-.experience-info {
-    justify-content: center;
-}
-
 .experience-container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
     gap: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
-.experience-art {
-    width: 30%;
+.experience-article {
+    width: 24rem;
+}
+
+
+/* Video */
+
+.video-container {
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+    padding-top: 45%;
+    margin: auto;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
 }
 
 
@@ -101,10 +144,12 @@ section {
 .projects-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .project {
-    width: 20%;
+    width: 17.25rem;
+    margin: 0.5rem;
 }
 
 .project-img {
@@ -118,6 +163,7 @@ section {
 .icon {
     cursor: pointer;
     height: 4rem;
+    border-radius: 2rem;
 }
 
 
