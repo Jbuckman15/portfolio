@@ -1,0 +1,67 @@
+{
+	"categories": [
+		{
+            "name": "Video Games",
+            "projects": [
+                {
+                    "name": "Thregnar and the Crystals of Chaos",
+                    "description": "I’m currently programming and animating an upcoming indie game titled Thregnar and the Crystals of Chaos.",
+                    "image": "ThregnarImg.png",
+                    "demolink": ""
+                },
+                {
+                    "name": "Whiplash",
+                    "description": "Whiplash is a grappling hook themed 3D platformer that was a group project developed at RIT.",
+                    "image": "WhiplashImg.png",
+                    "demolink": "https://people.rit.edu/jmb8220/450/Milestone4/"
+                },
+                {
+                    "name": "Purple Wurple",
+                    "description": "I’ve published a puzzle platformer game titled Purple Wurple on Itch.io. This game is designed around a unique stretch and stick mechanic.",
+                    "image": "PurpleWurpleImg.png",
+                    "demolink": "https://cm04.itch.io/purple-wurple"
+                }
+            ]
+    	},
+		{
+            "name": "Online Gambling",
+            "projects": [
+                {
+                    "name": "Fire and Roses JOKER",
+                    "description": "Fire and Roses JOKER is an online slot game I contributed to during my time at MahiGaming.",
+                    "image": "FireAndRosesImg.png",
+                    "demolink": "https://slotcatalog.com/en/slots/Fire-and-Roses-Joker"
+                },
+                {
+                    "name": "Blazing Bison Gold Blitz",
+                    "description": "Blazing Bison was a game developed at MahiGaming to capitalize on the success of Gold Blitz.",
+                    "image": "BisonImg.png",
+                    "demolink": "https://slotcatalog.com/en/slots/Blazing-Bison-Gold-Blitz"
+                },
+                {
+                    "name": "Bruno's Gallo Gold",
+                    "description": "Bruno's Gallo Gold was the first of the three games I worked on during my time at MahiGaming.",
+                    "image": "BrunoImg.png",
+                    "demolink": "https://slotcatalog.com/en/slots/Gallo-Gold-Bruno-s-Megaways"
+                }
+            ]
+    	},
+		{
+            "name": "Web Applications",
+            "projects": [
+                {
+                    "name": "Firework Sandbox",
+                    "description": "Firework Sandbox is a project I created at Rochester Institute of Technology. The goal was to have an interactive webpage with adjustable settings.",
+                    "image": "FireworksImg.png",
+                    "demolink": "https://people.rit.edu/jmb8220/330/project3"
+                },
+                {
+                    "name": "Amiibo Database",
+                    "description": "The Amiibo Database was an RIT project based around converting APIs into a user friendly program.",
+                    "image": "AmiiboFinderImg.png",
+                    "demolink": "https://people.rit.edu/jmb8220/330/project1/"
+                }
+            ]
+    	}
+	]
+}
