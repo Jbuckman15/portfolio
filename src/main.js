@@ -1,6 +1,3 @@
-// Loading in the other classes
-import "./project-item.js";
-
 // Data
 let data;
 
