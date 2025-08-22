@@ -53,7 +53,7 @@
                     "name": "Firework Sandbox",
                     "description": "Firework Sandbox is a project I created at Rochester Institute of Technology. The goal was to have an interactive webpage with adjustable settings.",
                     "image": "FireworksImg.png",
-                    "demolink": "https://people.rit.edu/jmb8220/330/project3"
+                    "demolink": "https://jbuckman15.github.io/FireworkSimulator/"
                 },
                 {
                     "name": "Amiibo Database",
@@ -65,3 +65,4 @@
     	}
 	]
 }
+
