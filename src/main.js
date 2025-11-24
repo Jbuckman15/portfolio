@@ -99,32 +99,28 @@ function CreateProject(data) {
     const image = document.createElement("img");
     image.className = "project-img";
     image.src = "./media/" + data.image;
+    project.appendChild(image);
 
     // Creating name
     const name = document.createElement("h2");
     name.innerHTML = data.name;
+    project.appendChild(name);
 
     // Creating description
     const description = document.createElement("p");
     description.innerHTML = data.description;
-
-    // Creating button
-    const button = document.createElement("button");
-    if (data.demolink == "") {
-        button.innerHTML = "Demo coming soon..."
-    } else {
-        button.innerHTML = "Live Demo"
-        button.onclick = function (e) {
-            window.open(data.demolink, '_blank');
-        }
-    }
-
-    // Appending elements
-    project.appendChild(image);
-    project.appendChild(name);
     project.appendChild(description);
+
+    // Creating buttons
     project.appendChild(document.createElement("br"));
-    project.appendChild(button);
+    if(data.button != null) {
+        const button = document.createElement("button");
+        button.innerHTML = data.button.label;
+        button.onclick = function (e) {
+            window.open(data.button.link, '_blank');
+        }
+        project.appendChild(button);
+    }
 
     return project;
 }
